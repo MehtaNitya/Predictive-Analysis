@@ -1,0 +1,184 @@
+💇‍♀️ Hair Fall Risk Prediction using Machine Learning
+📌 Project Overview
+
+This project focuses on predicting hair fall risk using machine learning techniques based on lifestyle, health, and personal factors.
+The system classifies individuals into Low Risk or High Risk categories and also performs user segmentation using clustering.
+
+The project includes:
+
+Data preprocessing and cleaning
+
+Exploratory Data Analysis (EDA)
+
+Supervised machine learning models
+
+Model evaluation using multiple metrics
+
+Clustering for user segmentation
+
+Risk scoring visualization
+
+🎯 Objectives
+
+Identify key factors contributing to hair fall
+
+Build and compare multiple ML classification models
+
+Predict hair fall risk (Low / High)
+
+Segment users using clustering techniques
+
+Visualize correlations, performance metrics, and risk scores
+
+🛠 Technologies & Libraries Used
+
+Python
+
+Pandas, NumPy – Data handling
+
+Matplotlib, Seaborn – Data visualization
+
+Scikit-learn – Machine Learning models
+
+
+📊 Dataset Description
+
+The dataset contains personal and lifestyle attributes such as:
+
+Age
+
+Gender
+
+Family History
+
+Dandruff
+
+Sleep Hours
+
+Stress Level
+
+Gut Issues
+
+Energy Levels
+
+Supplements
+
+Hair Fall Count
+
+Hair Fall Duration
+
+Wash Frequency
+
+Iron Levels
+
+🎯 Target Variable
+
+Risk_Target
+
+0 → Low Hair Fall Risk
+
+1 → High Hair Fall Risk
+
+🔍 Data Preprocessing
+
+Renamed columns for clarity
+
+Handled inconsistent target labels
+
+Encoded categorical variables using Label Encoding
+
+Scaled features using StandardScaler
+
+Removed unmapped or invalid rows
+
+📈 Exploratory Data Analysis (EDA)
+
+Feature importance analysis using Random Forest
+
+Correlation matrix to identify relationships between features
+
+Visualization of key influencing factors
+
+🤖 Machine Learning Models Used
+
+The following supervised learning models were trained and evaluated:
+
+Logistic Regression
+
+K-Nearest Neighbors (KNN)
+
+Decision Tree
+
+Naive Bayes
+
+Support Vector Machine (SVM)
+
+Random Forest
+
+📏 Model Evaluation Metrics
+
+Each model was evaluated using:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+Confusion Matrix (Best Model)
+
+The best-performing model was selected based on accuracy.
+
+👥 Clustering (User Segmentation)
+
+K-Means Clustering was applied
+
+Users were grouped into 3 clusters based on similarities
+
+Helps identify different hair-fall behavior patterns
+
+⚠ Risk Scoring System
+
+Risk probability predicted using the best model
+
+Converted probabilities into Risk Scores (0–100)
+
+Visualized score distribution with threshold marking
+
+Helps interpret model predictions easily
+
+▶ How to Run the Project
+
+Clone this repository
+
+Install required libraries:
+
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+
+Update dataset path if needed
+
+Run the script:
+
+python main.py
+
+🚀 Future Improvements
+
+Hyperparameter tuning for better accuracy
+
+Deployment as a web application
+
+Real-time user input prediction
+
+Larger and more diverse dataset
+
+👩‍🎓 Author
+
+Nitya Mehta
+Data Science / Machine Learning Student
+
+📜 Disclaimer
+
+This project is for educational purposes only and should not be used as a medical diagnosis tool.
